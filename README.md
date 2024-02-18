@@ -1,5 +1,5 @@
 # sample-action
-Development of Simple Sample Action
+Development of Simple Sample Action. Hello World sample action.
 
 # Learning Development of GitHub Docker Action
 
@@ -14,7 +14,6 @@ This action prints input information for a employee.
 ## `employer`
 
 **Required** The name of the person's employer. Default `"Std"`.
-
 
 ## Outputs
 
