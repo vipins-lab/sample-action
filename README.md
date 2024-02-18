@@ -1,6 +1,6 @@
 # `sample-action` - Learning Development of GitHub Docker Action
 
-Development of Simple Sample Action. Hello World sample action. 
+Development of Simple Sample Action. Hello World sample action.
 
 This action prints input information for a employee.
 
@@ -21,7 +21,8 @@ This action prints input information for a employee.
 Employee information.
 
 ## Example usage
-```
+
+```YAML
 uses: vipins-lab/sample-action@main
 with:
     name: 'Vipin'
