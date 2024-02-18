@@ -6,9 +6,11 @@ inputs:
   name:
     description: 'What is your name?'
     required: true
+    default: 'Vipin'
   employer:
     description: 'Who is your employer?'
     required: false
+    default: 'STD'
 
 
 outputs:
