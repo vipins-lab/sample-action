@@ -13,7 +13,7 @@ This action prints input information for a employee.
 
 ## `employer`
 
-**Required** The name of the person's employer. Default `"Std"`.
+**Required** The name of the person's employer. Default `"STD"`.
 
 ## Outputs
 
@@ -22,7 +22,9 @@ This action prints input information for a employee.
 Employee information.
 
 ## Example usage
+```
 uses: vipins-lab/sample-action@main
 with:
     name: 'Vipin'
     employer: 'Stan'      
+```
