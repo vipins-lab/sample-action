@@ -1,0 +1,24 @@
+name: Learning Development of GitHub Action
+author: vipinkrajput
+description: Hello World Simple Sample github action for learning.
+
+inputs:
+  name:
+    description: 'What is your name?'
+    required: true
+  employer:
+    description: 'Who is your employer?'
+    required: false
+
+
+outputs:
+  message:
+    description: 'Greeting Message'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.name }}
+    - ${{ inputs.employer }}
+  
