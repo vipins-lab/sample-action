@@ -5,4 +5,3 @@ echo "${greeting_message}"
 time=$(date)
 echo "time=$time"
 echo "message=${greeting_message}" >> $GITHUB_OUTPUT
-

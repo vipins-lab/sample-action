@@ -23,4 +23,7 @@ runs:
   args:
     - ${{ inputs.name }}
     - ${{ inputs.employer }}
-  
+
+branding:
+  icon: 'check-circle'
+  color: 'purple'
